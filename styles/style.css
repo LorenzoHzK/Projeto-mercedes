@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to left top, gray, black);
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: black;
+    text-align: left;
+    transition: 0.8s;
+    width: 100%;
+}
+
+header > img {
+    height: 80px;
+    margin: 15px;
+}
+
+header > nav {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+header:hover{
+    padding-bottom: 60px;
+    border-radius: 0px 0px 30px 30px;
+}
+
+header > nav > a {
+    margin: 0px 15px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Merriweather', serif;
+    transition: 0.8s;
+}
+
+header > nav > a:hover{
+    color: rgba(255, 255, 255, 0.555);
+    background-color: rgba(240, 248, 255, 0.116) ;
+    border-radius: 5px;
+    padding: 6px 20px 6px 20px;
+    transition: 0.4s;
+    font-size: 17px;
+}
+
+/* conteúdo*/
+
+
+p.texto{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding: 500px 0px 100px 100px;
+    text-shadow: 5px 5px 5px black;
+}
+
+a.ori{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.295);
+    color: black;
+    border-radius: 30px;
+    margin: 0px 0px 0px 100px;
+    padding: 8px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+a.ori:hover{
+    background-color: #004379ab;;
+    color: black;
+    transition: 0.2s;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+.imagem{
+    background-image: url(../images/pexels-thomas-balabaud-3404355.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* conteúdo*/
