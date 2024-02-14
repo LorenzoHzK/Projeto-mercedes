@@ -1,42 +1,41 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
-/* font-family: 'Merriweather', serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400;509&display=swap');
-/* font-family: 'Noto Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 /* content */
 p.texto{
     color: white;
     text-transform: uppercase;
-    font-size: 90px;
-    padding: 500px 0px 100px 100px;
-    text-shadow: 0px 0px 15px black;
+    font-size: 75px;
+    padding: 350px 0px 100px 100px;
 }
 
 a.ori{
+    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.295);
-    color: black;
-    border-radius: 30px;
+    background-color: #004379;
+    color: white;
+    border-radius: 5px;
     margin: 0px 0px 0px 100px;
-    padding: 8px;
-    font-size: 18px;
+    padding: 15px 25px 15px 25px;
+    font-size: 17px;
     text-transform: capitalize;
     transition: 0.2s;
 }
 
 a.ori:hover{
-    background-color: #004379ab;;
-    color: black;
-    transition: 0.2s;
-    padding: 12px;
+    background-color: #004379b0;
+    color: white;
+    transition: 0.2s
 }
 
 section{
     width: 99vw;
-    height: 100vh;
+    height: 88vh;
 }
 
 .imagem{
@@ -47,59 +46,28 @@ section{
 }
 
 h2{
-    color: white;
-    background-color: rgba(255, 255, 255, 0.13);
-    padding: 10px;
-    margin: 0px 0px 0px 00px;
-    text-transform: uppercase;
-    text-align: center;
+    color: rgb(44, 44, 44);
+    margin: 100px 0px 50px 90px;
     font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
 }
 
 /* imagens */
-
-.image-container {
-    position: relative;
-    overflow: hidden;
-    max-width: 40%;
+.divimage-container{
+    width: 22%;
+    display: flex;
 }
 
 .imageone {
-    width: 60%;
-    border-radius: 15px;
-    transition: 1s;
+    width: 85%;
+    max-height: 50%;
+    border-radius: 5px;
+    margin-left: 22%;
 }
-
-.image-container:hover .imageone {
-    width: 61%; /* Adjust the size as needed */
-    transition: 1s;
-}
-
-.text-container {
-    display: none;
-    position: absolute;
-    top: 60%;
-    left: 2%;
-    text-align: center;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.623);
-    border-radius: 15px;
-    width: 55%;
-}
-
-.image-container:hover .text-container {
-    display: block;
-}
-
-.textone{
-    font-size: 1.3em;
-}
-
-.tittleone{
-    font-size: 1.8em;
-    padding-bottom: 10px;
-}
-
 /* imagens */
+
+
 
 /* content */
