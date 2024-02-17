@@ -18,39 +18,53 @@ body{
 /* header */
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color: black;
     text-align: left;
     transition: 0.8s;
-    width: 100%;
+    max-width: 100%;
     font-family: 'Merriweather', serif;
 }
 
 header > img {
     height: 80px;
-    margin: 15px;
+    margin: 15px 0px 15px 50px;
 }
-
-header > nav {
-    display: flex;
-    align-items: center;
-    padding: 20px;
+nav{
+    margin-left: 600px;
 }
-
 header > nav > a {
+    display: inline-block;
+    border-radius: 3px;
     margin: 0px 15px;
     text-decoration: none;
-    color: white;
-    transition: 0.8s;
+    color: #bbb;
+    transition: 0.4s;
+    padding: 6px;
+    font-size: 16px;
 }
 
 header > nav > a:hover{
-    color: rgba(255, 255, 255, 0.555);;
-    border-color: white;
-    border-width: 1px;
-    border-style: solid;
-    padding: 6px;
+    color: white;
+    transition: 0.2s;
+}
+
+.Contact-us{
+    color: #bbb;
+    background-color: hsl(0, 0%, 14.9%);
+    padding: 13px 20px 13px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.Contact-us-out{
+    margin-left: 30%;
+}
+
+.Contact-us:hover{
+    color: white;
+    background-color: hsla(0, 0%, 15%, 0.801);
     transition: 0.4s;
 }
 /* header */
