@@ -8,9 +8,14 @@
     font-style: italic;
 }
 
+.background-slider{
+    background-image: url(../images/Slider/background-slider2.png);
+    background-position: center top;
+}
+
 .slider-container {
     position: relative;
-    width: 65%;
+    width: 70%;
     margin: 0 auto;
 }
 
